@@ -5,11 +5,11 @@ pool:
   name: Default
 
 steps:
-- ⁠script: echo my azure
+- script: echo azure
   displayName: 'Run a one-line script'
 
--⁠ ⁠script: gradle build
-  displayName: 'Building the gradle application'
+- script: gradle build
+  displayName: 'build'
 
--⁠ ⁠script: gradle run
-  displayName: 'Running gradle application'
+- script: gradle run
+  displayName: 'run'
